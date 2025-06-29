@@ -7,8 +7,6 @@ com as seguintes orientações gerais:
 Desenvolver um site totalmente funcional, com no mínimo quatro links,
 conforme orientações, e publicá-lo num servidor de hospedagem gratuito.
 
----
-
 ## Requisitos do trabalho
 
 * Um link Sobre mim: que fale sobre você, hobbies etc;
@@ -33,14 +31,10 @@ desenvolvido com linguagem pura (somente HTML e CSS).
 * Ao criar o seu usuário no servidor de hospedagem gratuito, utilize seu
 nome como parte do domínio.
 
----
-
 ## O que há atualmente?
 
 Neste momento tem apenas a estrutura da página.
 Estilos e conteúdo são precarios ou inexistentes.
-
----
 
 ## Índice
 
@@ -48,4 +42,3 @@ Estilos e conteúdo são precarios ou inexistentes.
 - [Requisitos](#requisitos-do-trabalho)
 - [Novidades](#o-que-há-atualmente)
 
----
