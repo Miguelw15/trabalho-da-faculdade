@@ -1,4 +1,4 @@
-# Trabalho da faculdade v0.0.0
+# Trabalho da faculdade v0.1.0
 
 ## Descrição
 
@@ -33,8 +33,8 @@ nome como parte do domínio.
 
 ## O que há atualmente?
 
-Neste momento tem apenas a estrutura da página.
-Estilos e conteúdo são precarios ou inexistentes.
+Adicionado conteúdo, estilos e  renderização de header e footer.
+Falta de responsividade ainda.
 
 ## Índice
 
