@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../scripts/main.js" defer></script>
-    <link rel="stylesheet" href="/styles/style.css">
-    <title>Trabalho Faculdade Portfolio</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/contato.css">    
+    <script src="/scripts/main.js" defer></script>
+    <script> let currentPage = 'contato';  </script>
+    <title>Trabalho Faculdade</title>
 </head>
 <body>
-
+    <main>
+        <form action="sucess.html" class="send-message-container">
+            <h1>ME ENVIE UMA MENSAGEM</h1>
+            <div class="send-message-content">
+                <div class="info">
+                    <label for="name">Nome</label>
+                    <input name="name" required type="text">
+                </div>
+                <div class="info">
+                    <label for="email">Email</label>
+                    <input type="email" required id="email">
+                </div>
+                <div class="info">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+                <button id="send-message" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>

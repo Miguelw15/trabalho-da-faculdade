@@ -1,0 +1,64 @@
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    gap: 160px;
+}
+
+main {
+    margin:340px 0 180px;
+    padding: 0px 160px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.welcome_apresentation {
+    margin: 0 0 180px;
+}
+
+.welcome_apresentation p strong {
+    font-weight: 900;
+}
+
+.imagens_juntas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.info_text {
+    max-width: 600px    ;
+}
+.info img {
+    flex-shrink: 0;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 15px 0;
+}

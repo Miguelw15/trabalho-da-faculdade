@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.send-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.send-message-content{ 
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    gap: 30px;
+}
+
+.info {
+    
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info > input {
+    height: 30px;
+}
+
+.info > textarea {
+    height: 250px;
+}
+
+#send-message {
+    height: 30px;
+    width: 70px;
+}
