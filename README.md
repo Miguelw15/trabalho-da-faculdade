@@ -1,4 +1,4 @@
-# Trabalho da faculdade v0.1.0
+# Trabalho da faculdade v1.0.0
 
 ## Descrição
 
@@ -33,8 +33,7 @@ nome como parte do domínio.
 
 ## O que há atualmente?
 
-Adicionado conteúdo, estilos e  renderização de header e footer.
-Falta de responsividade ainda.
+Adicionado responsividade, primeira versão estavel e funcional.
 
 ## Índice
 

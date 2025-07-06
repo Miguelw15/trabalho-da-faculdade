@@ -9,8 +9,9 @@ main {
 }
 
 .project {
+    max-width: 1250px;
     padding: 30px;
-    width: max-content;
+    width: 100%;
     border: 2px solid black;
     display: flex;
     gap: 30px;
@@ -18,10 +19,9 @@ main {
 }
 
 .project > img {
-    width: 600px;
-  height: 350px;     
-  flex-shrink: 0; 
-  border: none;  
+    display: block;
+    width: 100%;
+    max-width: 600px;
 }
 
 .project_content {
@@ -39,7 +39,8 @@ main {
 }
 
 .project_description > p {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
 }
 
 .view {
@@ -52,11 +53,36 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    float: inline-end;
     width: 100px;
     height: 40px;
     border: 3px solid black;
     border-radius: 10px;
+    margin: 15px 0;
+}
 
+@media screen and (max-width:1150px) {
+    main {
+        margin: 260px 60px;
+
+    }
+    .project > img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+   .project {
+    flex-direction: column;
+   }
+   .project_content > a {
+    margin: 15px 0;
+}
+
+   .view {
+    float: none;
+    margin: 0 0;
+   }
 }

@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    margin-top: 120px;
+    margin: 150px 0 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,10 +32,10 @@ main {
 }
 
 .info {
-    
     width: 450px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .info > input {
@@ -49,4 +49,21 @@ main {
 #send-message {
     height: 30px;
     width: 70px;
+}
+
+
+@media screen and (max-width: 660px) {
+    .info {
+        width: 300px;
+    }
+    
+    .send-message-content{ 
+        border-radius: 20px;
+        background-color: #D9D9D9;
+        padding: 30px;
+        
+    }
+    h1 {
+        text-align: center;
+    }
 }
